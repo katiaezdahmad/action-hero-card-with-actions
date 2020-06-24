@@ -15,6 +15,9 @@ html {
   border-radius: 50%;
   padding: .3em;
   color: #555;
+  top: 10px;
+  left: 230px;
+  z-index: 1000;
 }
 
 .action-btn:hover {
@@ -33,4 +36,22 @@ html {
   filter: none;
   box-shadow: 0 .1em .3em #000;
   color: #555;
+}
+
+.icons {
+  top: 100px;
+}
+
+.btn-ghost {
+  border: none;
+  top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
 }
